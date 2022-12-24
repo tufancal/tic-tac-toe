@@ -10,7 +10,6 @@ module.exports = {
   path: path.resolve(__dirname, "dist"),
   filename: "[name].[contenthash].js",
   clean: true,
-  assetModuleFileName: "[name][ext]",
  },
  devtool: "source-map",
  devServer: {
