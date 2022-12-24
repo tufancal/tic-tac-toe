@@ -1,0 +1,32 @@
+// Media queries
+$mq-tablet: 'screen and (min-width: 768px)';
+$mq-desktop: 'screen and (min-width: 1024px)';
+$mq-desktop-large: 'screen and (min-width: 1440px)';
+
+:root {
+ // Real colors
+ --color-wild-blue-yonder: #8789C0;
+ --color-fuscous-gray: #50514F;
+ --color-white: #FFFFFF;
+
+ // Abstract colors
+ --color-primary: var(--color-fuscous-gray);
+ --color-secondary: var(--color-white);
+ --color-tertiary: var(--color-wild-blue-yonder);
+
+ // Font family
+ --font-family: "Roboto", "Arial", "sans-serif";
+
+ // Font size
+ --font-size-s: 16px;
+ --font-size-m: 24px;
+ --font-size-l: 48px;
+ --font-size-xl: 64px;
+ --font-size-xxl: 96px;
+
+ // Font weight
+ --font-weight-regular: 400;
+ --font-weight-black: 900;
+}
+
+
